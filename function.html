@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    function Study(time,study) {
+        this.sleeptime = time;
+        this.studytime = study;
+
+        Study.prototype.learn = "bcs";
+    }
+    var study1 = new Study(12,"math");
+    var study2 = new Study(14,"data");
+    console.log(Study);
+    //document.write(study2);
+</script>
+</body>
+</html>
